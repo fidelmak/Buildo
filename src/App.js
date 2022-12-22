@@ -1,7 +1,11 @@
 import Navbar from "./components/Navbar";
+
 import Hero from "./components/Hero";
-import SearchBar from "./components/SearchBar";
+
 import MovieCar from "./components/MovieCar";
+import Moviez from "./components/Moviez";
+
+
 
 function App() {
   return (
@@ -10,8 +14,10 @@ function App() {
        
         <Navbar />
         <Hero />
-        <SearchBar />
+        
         <MovieCar />
+
+        <Moviez />
         
            
         
