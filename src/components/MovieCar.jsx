@@ -34,8 +34,8 @@ const fetchMovies = async () => {
     <div>
         
         
-        <SearchBar searchValue={searchValue} setSearchValue={setSearchValue} />
-        <Movie movies={movies} />
+        <SearchBar />
+      
      
 
     
