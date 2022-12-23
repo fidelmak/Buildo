@@ -1,6 +1,11 @@
-.Mytext{
-    background-color: black;
-    color: white;
-    height: 40px;
-    margin-top: -10px;
+@media (max-width: 640px) {
+    .Mytext{
+       
+        
+      
+        display: flex;
+        justify-content: center;
+        
+    }
 }
+

@@ -1,9 +1,9 @@
 import React from 'react'
-// "./Navbar.css"
+import "./Navbar.css"
 
 function Navbar() {
   return (
-    <div className="Mytext">
+    <div className="Mytext xy ">
        
 <nav className="p-3 border-black rounded xy dark:bg-black dark:border-black">
   <div className="container flex flex-wrap items-center justify-between mx-auto">
