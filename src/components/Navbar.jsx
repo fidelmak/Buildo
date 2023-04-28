@@ -9,7 +9,7 @@ function Navbar() {
   <div className="container flex flex-wrap items-center justify-between mx-auto">
     <a href="#" className="flex items-center">
         
-        <span className="self-center  border p-2 border-white rounded text-sm text-white mb-2 font-semibold whitespace-nowrap dark:text-white">myTextApp</span>
+        <span className="self-center  border p-2 border-white rounded text-sm text-white mb-2 font-semibold whitespace-nowrap dark:text-white">VIDMAX</span>
     </a>
     
         
