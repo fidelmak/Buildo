@@ -8,7 +8,7 @@ const Moviez = () => {
 const [movie, setMovies] = useState([])
 const handleMoviez =() => {
 
-    const url = `https://moviesdatabase.p.rapidapi.com/titles/x/titles-by-ids`; 
+      const url = `https://www.omdbapi.com/?i=tt3896198&apikey=e15d2eb2`; 
    
     axios.get(url).then(res=>{
         const resData= res.data
