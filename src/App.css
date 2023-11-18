@@ -1,0 +1,60 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+p {
+  font-size: small;
+  font-style: italic;
+}
+
+.app {
+  background-color: white;
+  margin: 20px;
+}
+.nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav,
+h1 {
+  margin: 20px;
+  font-size: x-small;
+}
+.nav h1:hover {
+  background-color: white;
+  color: magenta;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.btn {
+  width: 200px;
+  background-color: black;
+  color: white;
+  height: 50px;
+  border-radius: 50px;
+}
+.btn:hover {
+  background-color: white;
+  color: magenta;
+  border-style: solid;
+  border-radius: 50px;
+  cursor: zoom-in;
+}
+.scroll {
+  font-size: 24px;
+  font-weight: bold;
+  animation: fadeIn is ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
