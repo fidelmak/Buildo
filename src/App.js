@@ -1,29 +1,21 @@
+import React from "react";
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import { Box } from "@mui/material";
+
+import Exercise from "./components/Exercise";
 import Navbar from "./components/Navbar";
 
-import Hero from "./components/Hero";
-
-import MovieCar from "./components/MovieCar";
-import Moviez from "./components/Moviez";
-
-
-
-function App() {
+const App = () => {
   return (
-    <div className="">
-      <header className="">
-       
-        <Navbar />
-        <Hero />
-        
-        <MovieCar />
-
-        <Moviez />
-        
-           
-        
-      </header>
-    </div>
+    <>
+      <Box>
+        <div className="app">
+          <Navbar />
+          <Exercise />
+        </div>
+      </Box>
+    </>
   );
-}
-
+};
 export default App;
